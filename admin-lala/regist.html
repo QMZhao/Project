@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>register</title>
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <div class="main">
+    <!--register 头部标签栏-->
+    <div class="register-header">
+      <a href="#">
+        <img src="img/register/logobig.png">
+      </a>
+    </div>
+    <div class="register-banner">
+      <div class="register-container">
+        <div class="register-bg">
+          <img src="img/register/big.jpg">
+        </div>
+        <div class="register-box">
+          <div class="box-tabs">
+            <div>
+              <h3>新用户注册</h3>
+            </div>
+            <div>
+              <a href="login.html">直接登录</a>
+            </div>
+          </div>
+          <form class="box-list">
+            <div class="form-group">
+              <label for="uname">用户名：</label>
+              <input autocomplete required minlength="4" maxlength="12"  name="uname" id="uname" type="text" placeholder="请输入用户名"/>
+              <span class="msg-default hidden" >
+                支持中文、字母、数字、“-”“_”的组合，4-20个字符"
+              </span>
+              <div class="form-box" ></div>
+            </div>
+            <div class="form-group">
+              <label for="upwd">登录密码：</label>
+              <input required type="password" minlength="6" maxlength="12" placeholder="请输入密码" name="upwd"
+                     id="upwd"/>
+              <span class="msg-default hidden">
+                建议使用字母、数字和符号两种及以上的组合，6-20个字符
+              </span>
+              <div class="form-box"></div>
+            </div>
+            <div class="form-group">
+              <label for="upwdconfirm">确认密码：</label>
+             <input required type="password" minlength="6" maxlength="12" placeholder="请确认密码" name="upwdconfirm"
+                    id="upwdconfirm">
+              <span class="msg-default hidden">
+                请再次输入密码
+              </span>
+              <div class="form-box"></div>
+            </div>
+            <div class="form-group">
+              <label for="email">邮箱：</label>
+              <input autocomplete required type="email" placeholder="请输入邮箱地址" name="email" id="email"/>
+              <span class="msg-default hidden">
+                请输入正确的邮箱地址
+              </span>
+              <div class="form-box"></div>
+            </div>
+            <div class="form-group">
+              <label for="phone">手机号：</label>
+              <input required id="phone" name="phone" type="text" placeholder="请输入您的手机号"/>
+              <span class="msg-default hidden">
+                请输入正确的手机号
+              </span>
+              <div class="form-box"></div>
+            </div>
+            <div class="form-group">
+              <input  type="checkbox"/>点击表示同意商城服务条款
+            </div>
+            <div class="form-btn">
+              <p>
+                <input type="button" value="提交注册信息" id="bt-register"/>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>

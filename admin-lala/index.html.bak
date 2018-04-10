@@ -1,0 +1,2420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width,
+           initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+  <!--<link rel="stylesheet" href="css/header.css">-->
+</head>
+<body>
+<div class="main">
+	<div class="navbar navbar-default">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 ">
+					<span>亲，请<a href="#">登录</a></span>
+					<span><a href="#">免费注册</a></span>
+				</div>
+				<div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4">
+					<a href="#">
+						<span>商城首页</span>
+					</a>
+					<a href="#">
+						<span class="glyphicon glyphicon-user"></span>
+						<span>个人中心</span>
+					</a>
+					<a href="#">
+						<span class="glyphicon glyphicon-shopping-cart"></span>
+						<span>购物车</span>
+					</a>
+					<a href="#">
+						<span class="glyphicon glyphicon-heart"></span>
+						<span>收藏夹</span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1 col-lg-1"></div>
+				<div class="col-md-2 col-lg-2">
+					<a href="#" >
+						<img src="images/logobig.png">
+					</a>
+				</div>
+				<div class="col-md-4 col-lg-4 ">
+					<form action="#" class="navbar-form navbar-right">
+						<div class="from-group has-feedback">
+							<label for="kw" class="sr-only">搜索关键字</label>
+							<input type="text" id="kw" class="form-control" style="width: 300px">
+							<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<b class="line"></b>
+	<div class="container">
+		<div class="row" >
+			<div class="col-md-1">
+				<span>全部分类</span>
+			</div>
+			<div class="col-md-10">
+				<ul class="list-unstyled row">
+					<li class="col-md-1">
+						<a href="#">首页</a>
+						<span>|</span>
+					</li>
+					<li class="col-md-1">
+						<a href="#">闪购</a>
+						<span>|</span>
+					</li>
+					<li class="col-md-1">
+						<a href="#">限时抢</a>
+						<span>|</span>
+					</li>
+					<li class="col-md-1">
+						<a href="#">团购</a>
+						<span>|</span>
+					</li>
+					<li class="col-md-1">
+						<a href="#">大包装</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="category-content">
+			<div class="category">
+				<ul class="category-list">
+					<li >
+						<div class="category-info">
+							<img src="img/banner/cake.png">
+							<span>点心/蛋糕</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">蛋糕</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">点心</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="呵官方旗舰店"   href="#"  ><span   >呵官方旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="格瑞旗舰店"   href="#"  ><span >格瑞旗舰店</span></a></dd>
+										<dd><a   title="飞彦大厂直供"   href="#"  ><span   >飞彦大厂直供</span><span>|</span></a></dd>
+										<dd><a   title="红e·艾菲妮"   href="#"  ><span >红e·艾菲妮</span></a></dd>
+										<dd><a   title="本真旗舰店"   href="#"  ><span   >本真旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="杭派女装批发网"   href="#"  ><span   >杭派女装批发网</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<div>
+								<img src="img/banner/cookies.png">
+								<span>饼干/膨化</span>
+								<em>&gt;</em>
+							</div>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="饼干">饼干</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="薯片">薯片</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">虾条</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort">
+										<dt><span>实力商家</span></dt>
+										<dd><a  title="YYKCLOT"  href="#"  ><span   >YYKCLOT</span><span>|</span></a></dd>
+										<dd><a  title="池氏品牌男装"   href="#"  ><span   >池氏品牌男装</span><span>|</span></a></dd>
+										<dd><a  title="男装日志"   href="#"  ><span >男装日志</span><span>|</span></a></dd>
+										<dd><a  title="索比诺官方旗舰店"   href="#"  ><span >索比诺官方旗舰店</span><span>|</span></a></dd>
+										<dd><a  title="onTTno傲徒"   href="#"  ><span   >onTTno傲徒</span><span>|</span></a></dd>
+										<dd><a  title="玛狮路男装旗舰店"   href="#"  ><span >玛狮路男装旗舰店</span><span>|</span></a></dd>
+										<dd><a  title="劳威特品牌男装"   href="#"  ><span >劳威特品牌男装</span><span>|</span></a></dd>
+										<dd><a  title="卡斯郎世家批发城"   href="#"  ><span   >卡斯郎世家批发城</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/meat.png">
+							<span>熟食/肉类</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="猪肉脯">猪肉脯</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="牛肉丝">牛肉丝</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="小香肠">小香肠</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="花颜巧语 "   href="#"  ><span   >花颜巧语</span><span>|</span></a></dd>
+										<dd><a   title="糖衣小屋"   href="#"  ><span >糖衣小屋</span></a></dd>
+										<dd><a   title="卡拉迪克  "   href="#"  ><span   >卡拉迪克 </span><span>|</span></a></dd>
+										<dd><a   title="暖春童话 "   href="#"  ><span >暖春童话 </span></a></dd>
+										<dd><a   title="华盛童装批发行 "   href="#"  ><span >华盛童装批发行 </span><span>|</span></a></dd>
+										<dd><a   title="奈仕华童装旗舰店"   href="#"  ><span >奈仕华童装旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="斑蒂尼BONDYNI"   href="#"  ><span   >斑蒂尼BONDYNI</span><span>|</span></a></dd>
+										<dd><a   title="猫儿朵朵 "   href="#"  ><span >猫儿朵朵 </span><span>|</span></a></dd>
+										<dd><a   title="童衣阁"   href="#"  ><span   >童衣阁</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/bamboo.png">
+							<span>素食/卤味</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="豆干">豆干</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="干笋">干笋</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="鸭脖">鸭脖</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a  title="歌芙品牌旗舰店"   href="#"  ><span>歌芙品牌旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="爱丝蓝内衣厂"   href="#"  ><span >爱丝蓝内衣厂</span><span>|</span></a></dd>
+										<dd><a   title="香港优蓓尔防辐射"   href="#"  ><span >香港优蓓尔防辐射</span><span>|</span></a></dd>
+										<dd><a   title="蓉莉娜内衣批发"   href="#"  ><span >蓉莉娜内衣批发</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/nut.png">
+							<span>坚果/炒货</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">坚果</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">锅巴</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="呵呵嘿官方旗舰店"   href="#"  ><span   >呵呵嘿官方旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="格瑞旗舰店"   href="#"  ><span >格瑞旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="飞彦大厂直供"   href="#"  ><span   >飞彦大厂直供</span><span>|</span></a></dd>
+										<dd><a   title="红e·艾菲妮"   href="#"  ><span >红e·艾菲妮</span><span>|</span></a></dd>
+										<dd><a   title="本真旗舰店"   href="#"  ><span   >本真旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="杭派女装批发网"   href="#"  ><span   >杭派女装批发网</span><span>|</span></a></dd>
+										<dd><a   title="华伊阁旗舰店"   href="#"  ><span >华伊阁旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="独家折扣旗舰店"   href="#"  ><span >独家折扣旗舰店</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/candy.png">
+							<span>糖果/蜜饯</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="糖果">糖果</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蜜饯">蜜饯</span></dt>
+										<dd><a title="猕猴桃干" href="#"><span>猕猴桃干</span></a></dd>
+										<dd><a title="糖樱桃" href="#"><span>糖樱桃</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="YYKCLOT"   href="#"  ><span   >YYKCLOT</span></a></dd>
+										<dd><a   title="池氏品牌男装"   href="#"  ><span   >池氏品牌男装</span><span>|</span></a></dd>
+										<dd><a   title="男装日志"   href="#"  ><span >男装日志</span><span>|</span></a></dd>
+										<dd><a   title="索比诺官方旗舰店"   href="#"  ><span >索比诺官方旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="onTTno傲徒"   href="#"  ><span   >onTTno傲徒</span><span>|</span></a></dd>
+										<dd><a   title="卡斯郎世家批发城"   href="#"  ><span   >卡斯郎世家批发城</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/chocolate.png">
+							<span>巧克力  &nbsp;&nbsp;&nbsp;</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">巧克力</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">果冻</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="花颜巧语 "   href="#"  ><span   >花颜巧语 </span><span>|</span></a></dd>
+										<dd><a   title="糖衣小屋"   href="#"  ><span >糖衣小屋</span></a><span>|</span></dd>
+										<dd><a   title="卡拉迪克  "   href="#"  ><span   >卡拉迪克  </span><span>|</span></a></dd>
+										<dd><a   title="暖春童话 "   href="#"  ><span >暖春童话 </span><span>|</span></a></dd>
+										<dd><a   title="华盛童装批发行 "   href="#"  ><span >华盛童装批发行 </span><span>|</span></a></dd>
+										<dd><a   title="奈仕华童装旗舰店"   href="#"  ><span >奈仕华童装旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="斑蒂尼BONDYNI"   href="#"  ><span   >斑蒂尼BONDYNI</span><span>|</span></a></dd>
+										<dd><a   title="童衣阁"   href="#"  ><span   >童衣阁</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/fish.png">
+							<span>海味/河鲜</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="海带丝">海带丝</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="小鱼干">小鱼干</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="鱿鱼丝">鱿鱼丝</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="歌芙品牌旗舰店"   href="#"  ><span   >歌芙品牌旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="爱丝蓝内衣厂"   href="#"  ><span >爱丝蓝内衣厂</span><span>|</span></a></dd>
+										<dd><a   title="炫点服饰"   href="#"  ><span >炫点服饰</span><span>|</span></a></dd>
+										<dd><a   title="雪茵美内衣厂批发"   href="#"  ><span >雪茵美内衣厂批发</span><span>|</span></a></dd>
+										<dd><a   title="金钻夫人"   href="#"  ><span >金钻夫人</span><span>|</span></a></dd>
+										<dd><a   title="伊美莎内衣"   href="#"  ><span   >伊美莎内衣</span><span>|</span></a></dd>
+										<dd><a   title="粉客内衣旗舰店"   href="#"  ><span >粉客内衣旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="泽芳行旗舰店"   href="#"  ><span >泽芳行旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="彩婷"   href="#"  ><span   >彩婷</span><span>|</span></a></dd>
+										<dd><a   title="黛兰希"   href="#"  ><span >黛兰希</span><span>|</span></a></dd>
+										<dd><a   title="香港优蓓尔防辐射"   href="#"  ><span >香港优蓓尔防辐射</span><span>|</span></a></dd>
+										<dd><a   title="蓉莉娜内衣批发"   href="#"  ><span >蓉莉娜内衣批发</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/tea.png">
+							<span>花茶/果茶</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">蛋糕</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">点心</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a title="今生只围你"   href="#"  ><span >今生只围你</span><span>|</span></a></dd>
+										<dd><a title="忆佳人"   href="#"  ><span   >忆佳人</span><span>|</span></a></dd>
+										<dd><a title="斐洱普斯"   href="#"  ><span   >斐洱普斯</span><span>|</span></a></dd>
+										<dd><a title="聚百坊"   href="#"  ><span   >聚百坊</span><span>|</span></a></dd>
+										<dd><a title="朵朵棉织直营店"   href="#"  ><span >朵朵棉织直营店</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/package.png">
+							<span>品牌/礼包</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="大包装">大包装</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="两件套">两件套</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a title="琳琅鞋业"   href="#"  ><span >琳琅鞋业</span><span>|</span></a></dd>
+										<dd><a title="宏利鞋业"   href="#"  ><span >宏利鞋业</span><span>|</span></a></dd>
+										<dd><a title="比爱靓点鞋业"   href="#"  ><span >比爱靓点鞋业</span><span>|</span></a></dd>
+										<dd><a title="浪人怪怪"   href="#"  ><span >浪人怪怪</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<div>
+								<img src="img/banner/cookies.png">
+								<span>饼干/膨化</span>
+								<em>&gt;</em>
+							</div>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="饼干">饼干</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="薯片">薯片</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">虾条</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="YYKCLOT"   href="#"  ><span   >YYKCLOT</span><span>|</span></a></dd>
+										<dd><a   title="池氏品牌男装"   href="#"  ><span   >池氏品牌男装</span><span>|</span></a></dd>
+										<dd><a   title="男装日志"   href="#"  ><span >男装日志</span><span>|</span></a></dd>
+										<dd><a   title="索比诺官方旗舰店"   href="#"  ><span >索比诺官方旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="onTTno傲徒"   href="#"  ><span   >onTTno傲徒</span><span>|</span></a></dd>
+										<dd><a   title="玛狮路男装旗舰店"   href="#"  ><span >玛狮路男装旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="劳威特品牌男装"   href="#"  ><span >劳威特品牌男装</span><span>|</span></a></dd>
+										<dd><a   title="卡斯郎世家批发城"   href="#"  ><span   >卡斯郎世家批发城</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/meat.png">
+							<span>熟食/肉类</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="猪肉脯">猪肉脯</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="牛肉丝">牛肉丝</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="小香肠">小香肠</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="花颜巧语 "   href="#"  ><span   >花颜巧语 </span><span>|</span></a></dd>
+										<dd><a   title="糖衣小屋"   href="#"  ><span >糖衣小屋</span><span>|</span></a></dd>
+										<dd><a   title="卡拉迪克  "   href="#"  ><span   >卡拉迪克  </span><span>|</span></a></dd>
+										<dd><a   title="暖春童话 "   href="#"  ><span >暖春童话 </span><span>|</span></a></dd>
+										<dd><a   title="华盛童装批发行 "   href="#"  ><span >华盛童装批发行 </span><span>|</span></a></dd>
+										<dd><a   title="奈仕华童装旗舰店"   href="#"  ><span >奈仕华童装旗舰店</span><span>|</span></a></dd>
+										<dd><a   title="斑蒂尼BONDYNI"   href="#"  ><span   >斑蒂尼BONDYNI</span><span>|</span></a></dd>
+										<dd><a   title="猫儿朵朵 "   href="#"  ><span >猫儿朵朵 </span><span>|</span></a></dd>
+										<dd><a   title="童衣阁"   href="#"  ><span   >童衣阁</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/bamboo.png">
+							<span>素食/卤味</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="豆干">豆干</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="干笋">干笋</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="鸭脖">鸭脖</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="歌芙品牌旗舰店"   href="#"  ><span   >歌芙品牌旗舰店</span></a></dd>
+										<dd><a   title="爱丝蓝内衣厂"   href="#"  ><span >爱丝蓝内衣厂</span></a></dd>
+										<dd><a   title="香港优蓓尔防辐射"   href="#"  ><span >香港优蓓尔防辐射</span></a></dd>
+										<dd><a   title="蓉莉娜内衣批发"   href="#"  ><span >蓉莉娜内衣批发</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/nut.png">
+							<span>坚果/炒货</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">坚果</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蛋糕">锅巴</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="呵呵嘿官方旗舰店"   href="#"  ><span   >呵呵嘿官方旗舰店</span></a></dd>
+										<dd><a   title="格瑞旗舰店"   href="#"  ><span >格瑞旗舰店</span></a></dd>
+										<dd><a   title="飞彦大厂直供"   href="#"  ><span   >飞彦大厂直供</span></a></dd>
+										<dd><a   title="红e·艾菲妮"   href="#"  ><span >红e·艾菲妮</span></a></dd>
+										<dd><a   title="本真旗舰店"   href="#"  ><span   >本真旗舰店</span></a></dd>
+										<dd><a   title="杭派女装批发网"   href="#"  ><span   >杭派女装批发网</span></a></dd>
+										<dd><a   title="华伊阁旗舰店"   href="#"  ><span >华伊阁旗舰店</span></a></dd>
+										<dd><a   title="独家折扣旗舰店"   href="#"  ><span >独家折扣旗舰店</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="category-info">
+							<img src="img/banner/candy.png">
+							<span>糖果/蜜饯</span>
+							<em>&gt;</em>
+						</div>
+						<div class="menu-item">
+							<div class="menu-srot">
+								<div class="sort-side">
+									<dl class="dl-sort">
+										<dt><span title="糖果">糖果</span></dt>
+										<dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+										<dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+									<dl class="dl-sort">
+										<dt><span title="蜜饯">蜜饯</span></dt>
+										<dd><a title="猕猴桃干" href="#"><span>猕猴桃干</span></a></dd>
+										<dd><a title="糖樱桃" href="#"><span>糖樱桃</span></a></dd>
+										<dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
+										<dd><a title="软面包" href="#"><span>软面包</span></a></dd>
+										<dd><a title="马卡龙" href="#"><span>马卡龙</span></a></dd>
+										<dd><a title="千层饼" href="#"><span>千层饼</span></a></dd>
+										<dd><a title="甜甜圈" href="#"><span>甜甜圈</span></a></dd>
+										<dd><a title="蒸三明治" href="#"><span>蒸三明治</span></a></dd>
+										<dd><a title="铜锣烧" href="#"><span>铜锣烧</span></a></dd>
+									</dl>
+								</div>
+								<div class="brand-side">
+									<dl class="dl-sort"><dt><span>实力商家</span></dt>
+										<dd><a   title="YYKCLOT"   href="#"  ><span   >YYKCLOT</span></a></dd>
+										<dd><a   title="池氏品牌男装"   href="#"  ><span   >池氏品牌男装</span></a></dd>
+										<dd><a   title="男装日志"   href="#"  ><span >男装日志</span></a></dd>
+										<dd><a   title="索比诺官方旗舰店"   href="#"  ><span >索比诺官方旗舰店</span></a></dd>
+										<dd><a   title="onTTno傲徒"   href="#"  ><span   >onTTno傲徒</span></a></dd>
+										<dd><a   title="卡斯郎世家批发城"   href="#"  ><span   >卡斯郎世家批发城</span></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="dd">
+			<div class="d2">
+				<!--<div class="container">-->
+					<!--<div id="ad9" class="carousel" data-ride="carousel" data-interval="1000" data-pause="null">-->
+						<!--&lt;!&ndash;必需:轮播广告滚动内容&ndash;&gt;-->
+						<!--<div class="carousel-inner">-->
+							<!--<div class="item active">-->
+								<!--<img src="img/banner/ad5.jpg" >-->
+							<!--</div>-->
+							<!--<div class="item">-->
+								<!--<img src="img/banner/ad6.jpg" >-->
+							<!--</div>-->
+							<!--<div class="item">-->
+								<!--<img src="img/banner/ad7.jpg" >-->
+							<!--</div>-->
+							<!--<div class="item">-->
+								<!--<img src="img/banner/ad8.jpg" >-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--&lt;!&ndash;序号指示器&ndash;&gt;-->
+						<!--<ul class="carousel-indicators">-->
+							<!--<li data-slide-to="0" data-target="#ad9" class="active"></li>-->
+							<!--<li data-slide-to="1" data-target="#ad9"></li>-->
+							<!--<li data-slide-to="2" data-target="#ad9"></li>-->
+							<!--<li data-slide-to="3" data-target="#ad9"></li>-->
+						<!--</ul>-->
+					<!--</div>-->
+				<!--</div>-->
+			</div>
+			<div class="d3">3</div>
+			<div class="d4">
+				<img src="img/activity/row1.jpg" alt="">
+			</div>
+			<div class="d4">
+				<img src="img/activity/row2.jpg" alt="">
+			</div>
+			<div class="d4">
+				<img src="img/activity/row3.jpg" alt="">
+			</div>
+			<div class="d4">
+				<img src="img/activity/row4.jpg" alt="">
+			</div>
+		</div>
+
+	</div>
+	<div class="sale">
+		<div class="sale-header">
+			<div class="lf">1</div>
+			<div class="rf">2</div>
+		</div>
+		<div class="sale-product">
+			<div class="">3</div>
+			<div class="">4</div>
+			<div class="">5</div>
+			<div class="">6</div>
+		</div>
+	</div>
+	<div class="sweetmeats">
+		<div class=" sweetmeats-title">
+			<div class="lf">
+				<div class="lf">
+					<span class="">甜品</span>
+					<span class="">每一道甜品都有一个故事</span>
+				</div>
+			</div>
+			<div class="rf">
+				<div class="lf">
+					<span class="lf">
+						<a href="#">桂花糕</a>
+						<span>|</span>
+					</span>
+					<span class="lf">
+						<a href="#">奶皮酥</a>
+						<span>|</span>
+					</span>
+					<div class="lf">
+						<a href="#">栗子糕</a>
+						<span>|</span>
+					</div>
+					<span class="lf">
+						<a href="#">马卡龙</a>
+						<span>|</span>
+					</span>
+					<span class="lf">
+						<a href="#">铜锣烧</a>
+						<span>|</span>
+					</span>
+					<span class="lf">
+						<a href="#">豌豆黄</a>
+						<span>|</span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="sweetmeats-products">
+			<div class="">
+				<p></p>
+				<p></p>
+			</div>
+			<div class="">4</div>
+			<div class="">
+				<p></p>
+				<p></p>
+			</div>
+			<div class="">6</div>
+			<div class="">
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!--
+	<div class="main">
+		<!--分类推荐栏
+		<div class="nav-top">
+				<span>全部分类</span>
+			<div class="nav-item">
+				<ul class="nav-list">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">闪购</a>
+					</li>
+					<li>
+						<a href="#">限时抢</a>
+					</li>
+					<li>
+						<a href="#">团购</a>
+					</li>
+					<li>
+						<a href="#">大包装</a>
+					</li>
+				</ul>
+				<div class="welfare ">
+					<b>我的福利</b>
+				</div>
+			</div>
+		</div>
+		<!--侧边导航-
+		<div class="navfull" id="nav">
+			<div class="area">
+				<div class="category-content">
+					<div class="category">
+						<ul class="category-list">
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/cake.png">
+									<span>点心/蛋糕</span>
+								</div>
+								<div class="item">
+									<div class="item-menu">
+										<dl>
+										<dt>
+											<span>蛋糕</span>
+										</dt>
+										<dd>
+											<a href="#">
+												<span>蒸蛋糕</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>脱水蛋糕</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#"><span>瑞士卷</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>软面包</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>马卡龙</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>千层饼</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>甜甜圈</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>蒸三明治</span>
+											</a>
+										</dd>
+										<dd>
+											<a href="#">
+												<span>铜锣烧</span>
+											</a>
+										</dd>
+									</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/cookies.png">
+									<span>饼干/膨化</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/meat.png">
+									<span>熟食/肉类</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/bamboo.png">
+									<span>素食/卤味</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/nut.png">
+									<span>坚果/炒货</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li class="container">
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/chocolate.png">
+									<span>巧克力</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/fish.png">
+									<span>海味/河鲜</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/tea.png">
+									<span>花茶/果冻</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="container">
+								<div class="category-info">
+									<img src="img/banner/package.png">
+									<span>品牌/礼包</span>
+								</div>
+								<div class="item">
+									<div>
+										<dl>
+											<dt>
+												<span>蛋糕</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<span>点心</span>
+											</dt>
+											<dd>
+												<a href="#">
+													<span>蒸蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>脱水蛋糕</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#"><span>瑞士卷</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>软面包</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>马卡龙</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>千层饼</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>甜甜圈</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>蒸三明治</span>
+												</a>
+											</dd>
+											<dd>
+												<a href="#">
+													<span>铜锣烧</span>
+												</a>
+											</dd>
+										</dl>
+									</div>
+									<div>
+										<dl>
+											<dt><span>实力商家</span></dt>
+											<dd><a href="#"><span>呵官方旗舰店</span></a></dd>
+											<dd><a href="#"><span>格瑞旗舰店</span></a></dd>
+											<dd><a href="#"><span>飞彦大厂直供</span></a></dd>
+											<dd><a href="#"><span>红e·艾菲妮</span></a></dd>
+											<dd><a href="#"><span>本真旗舰店</span></a></dd>
+											<dd><a href="#"><span>杭派女装批发网</span></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner">
+			<ul class="banner-container">
+				<li class="banner-item">
+					<a href="javacript:;">
+						<img src="images/ad1.jpg">
+					</a>
+				</li>
+				<li>
+					<a href="javacript:;">
+						<img src="images/ad2.jpg">
+					</a>
+				</li>
+				<li>
+					<a href="javacript:;">
+						<img src="images/ad3.jpg">
+					</a>
+				</li>
+				<li>
+					<a href="javacript:;">
+						<img src="images/ad4.jpg">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--商城头条--
+		<div>
+			<div>
+				<span>商城头条</span>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<a href="#">
+							[特惠]商城爆品一分秒
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							[商城]与广州市签署
+						</a>
+					</li>
+					<li class="lf clear">
+						<img src="img/banner/getAvatar.do.jpg">
+						<p>
+							<span>Hi,小叮当</span>
+							<a href="#">点击更多优惠活动</a>
+						</p>
+					</li>
+					<li>
+						<input type="button" value="登录">
+						<input type="button" value="注册">
+					</li>
+					<li>
+						<a href="#">
+							[特惠]洋河年末大促，低
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							[公告]华北、华中部分低
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							[特惠]家电狂欢千亿礼券
+						</a>
+					</li>
+				</ul>
+				<div>
+					<img src="" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!-- 			甜品栏 --
+		<section>
+			<div>
+				<ul>
+					<li>甜品</li>
+					<li>每一道甜品都有一个故事</li>
+				</ul>
+				<ul>
+					<li><a href="#">桂花糕</a></li>
+					<li><a href="#">奶皮酥</a></li>
+					<li><a href="#">栗子糕</a></li>
+					<li><a href="#">马卡龙</a></li>
+					<li><a href="#">铜锣烧</a></li>
+					<li><a href="#">豌豆黄</a></li>
+				</ul>
+				<span>更多美味</span>
+			</div>
+			<div>
+				<div>
+					<a href="#">
+						<p>零食大礼包开枪啦</p>
+						<p>当小鱼儿恋上软豆腐</p>
+						<a href="#">
+							<img src="img/sweetmeats/act1.png">
+						</a>
+					</a>
+				</div>
+				<div>
+					<p>雪之恋和风大福</p>
+					<p>仅售￥13.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act2.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>雪之恋和风大福</p>
+					<p>仅售￥13.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act2.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- 		坚果栏 --
+		<section>
+			<div>
+				<ul>
+					<li>坚果</li>
+					<li>酥酥脆脆，回味无穷</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">腰果</a>
+					</li>
+					<li>
+						<a href="#">松子</a>
+					</li>
+					<li>
+						<a href="#">夏威夷果</a>
+					</li>
+					<li>
+						<a href="#">碧根果</a>
+					</li>
+					<li>
+						<a href="#">开心果</a>
+					</li>
+					<li>
+						<a href="#">核桃仁</a>
+					</li>
+				</ul>
+				<span>更多美味</span>
+			</div>
+			<div>
+				<div>
+					<p>零食大礼包开抢啦</p>
+					<p>当小鱼儿恋上软豆腐</p>
+					<img src="img/sweetmeats/act1.png">
+				</div>
+				<div>
+					<p>雪之恋和风大福</p>
+					<p>仅售￥13.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act2.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>雪之恋和风大福</p>
+					<p>仅售￥13.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act2.png">
+					</a>
+				</div>
+				<div>
+					<p>雪之恋和风大福</p>
+					<p>仅售￥13.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act2.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+				<div>
+					<p>小优布丁</p>
+					<p>尝鲜价：￥4.8</p>
+					<a href="#">
+						<img src="img/sweetmeats/act3.png">
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- 		海味 --
+		<section>
+			<div>
+				<ul>
+					<li>海味</li>
+					<li>你是我的优乐美吗？不，我是你的小鱼干</li>
+				</ul>
+				<ul>
+					<li><a href="#">小鱼干</a></li>
+					<li><a href="#">海苔</a></li>
+					<li><a href="#">鱿鱼丝</a></li>
+					<li><a href="#">海带丝</a></li>
+				</ul>
+				<span>更多美味</span>
+			</div>
+			<div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp.jpg">
+					</a>
+					<div>
+						<p>萨拉米 1+1小鸡腿</p>
+						<p>￥29.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp2.jpg">
+					</a>
+					<div>
+						<p>ZEK原味海苔</p>
+						<p>￥8.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp.jpg">
+					</a>
+					<div>
+						<p>萨拉米 1+1小鸡腿</p>
+						<p>￥29.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp2.jpg">
+					</a>
+					<div>
+						<p>ZEK原味海苔</p>
+						<p>￥8.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp.jpg">
+					</a>
+					<div>
+						<p>萨拉米 1+1小鸡腿</p>
+						<p>￥29.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp2.jpg">
+					</a>
+					<div>
+						<p>ZEK原味海苔</p>
+						<p>￥8.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp.jpg">
+					</a>
+					<div>
+						<p>萨拉米 1+1小鸡腿</p>
+						<p>￥29.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp2.jpg">
+					</a>
+					<div>
+						<p>ZEK原味海苔</p>
+						<p>￥8.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp.jpg">
+					</a>
+					<div>
+						<p>萨拉米 1+1小鸡腿</p>
+						<p>￥29.90</p>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/sea-foots/cp2.jpg">
+					</a>
+					<div>
+						<p>ZEK原味海苔</p>
+						<p>￥8.90</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div> -->
+</body>
+</html>

@@ -1,0 +1,39 @@
+/*通用样式设置*/
+body{
+	/*字体大小，格式*/
+	font:12px "simhei",Arial,Helvetica,sans-serif;
+	/*字体颜色*/
+	color:#666;
+	margin:0;
+	padding:0;
+	background:transparent;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.main{
+	width:1200px;
+	height:100%;;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	color: #FF5000;
+	text-decoration:none;
+}
+img{
+	vertical-align:baseline;
+}
+.lf{float:left;}
+.rf{float:right;}
+/*浮动清除*/
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}

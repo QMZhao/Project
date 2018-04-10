@@ -1,0 +1,531 @@
+/*面包屑导航*/
+div.bread-crumb{
+  width:100%;
+  height: 40px;
+  line-height: 40px;
+  background: #0AA1ED;
+  margin-bottom: 20px;
+}
+/*产品预览*/
+div.product_details{
+  display: flex;
+  justify-content: space-between;
+}
+div.product_details div.preview{
+  width: 400px;
+  height: 472px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.preview div.medium{
+  width: 400px;
+  height:400px;
+}
+div.preview div.medium img{
+  width: 400px;
+  height:400px;
+}
+div.preview div.slides {
+  width: 400px;
+  height: 62px;
+}
+div.preview div.slides ul{
+  display: flex;
+}
+div.preview div.slides li>img{
+  border: 1px solid #CDCDCD;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+div.preview div.slides li:hover img{
+  border: 1px solid #C30008;
+  vertical-align: middle;
+}
+div.preview div.slides li:nth-child(2),
+div.preview div.slides li:last-child{
+  margin-left: 10px;
+}
+
+div.product_details div.show-details{
+  width: 700px;
+  height: 420px;
+  margin-right: 70px;
+  /*background: #f1a899;*/
+}
+div.show-details p.detail-title b{
+  width: 700px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 18px;
+  color: #000;
+}
+div.show-details div.detail-block{
+  width: 700px;
+  height: 100px;
+  /*background: #F7F7F7;*/
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+div.detail-block div.block-title{
+  width: 100%;
+  height: 31px;
+  display: flex;
+}
+div.block-title div:first-child dt{
+  width: 56px;
+  height: 21px;
+  margin-top: 10px;
+  font-size: 14px;
+  color:#888;
+}
+div.block-title div:nth-child(2){
+  width: 620px;
+  height: 21px;
+  margin-top: 10px;
+  padding:0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+div.block-title div:nth-child(2) p{
+  color: #E4393C;
+  font-size: 14px;
+  font-weight: bold;
+}
+div.block-title div:nth-child(2) a{
+  padding-right: 20px;
+  color: #E4393C;
+  font-size: 14px;
+  font-weight: bold;
+}
+div.detail-block div.block-active{
+  width: 690px;
+  height: 60px;
+}
+div.block-active  div.block-list1{
+  width: 680px;
+  height: 30px;
+  display: flex;
+  line-height: 25px;
+}
+div.block-list1 p:first-child{
+  width: 56px;
+  /*height: 21px;*/
+  font-size: 14px;
+  color: #888;
+  margin-top: 6px;
+  /*text-align: ;*/
+}
+div.block-list1 p:last-child{
+  width: 100px;
+  height: 25px;
+  margin-left: 10px;
+  vertical-align: bottom;
+  /*text-align: ;*/
+}
+div.block-list1 p:last-child span:last-child{
+  font-size: 24px;
+  font-weight: bold;
+  color: #c00;
+}
+div.block-list1 p:last-child span:first-child{
+  font-size: 14px;
+  /*font-family:arial;*/
+  color: #c00;
+}
+
+div.block-active  div.block-list2{
+  width: 680px;
+  height: 25px;
+  display: flex;
+  line-height: 25px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+div.block-list2 p:first-child{
+  width: 66px;
+  height: 25px;
+  font-size: 14px;
+  color: #888;
+}
+div.block-list2 p:last-child{
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #333333;
+}
+/*配送地址*/
+div.show-details div.detail-express{
+  width: 560px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+div.detail-express div:first-child{
+  font-size: 14px;
+  color:#888;
+}
+div.detail-express div:nth-child(3),
+div.detail-express div:last-child{
+  font-size: 14px;
+  color:#000;
+}
+div.show-details div.detail-spe{
+  display: flex;
+}
+div.show-details div.detail-spe span{
+  width: 58px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #888;
+  /*background: #9ab26b;*/
+}
+div.show-details div.detail-spe ul.spe-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 40px;
+  width: 420px;
+  height:100%;
+  margin-left: 15px;
+}
+div.detail-spe ul.spe-list a{
+  width: 135px;
+  height: 44px;
+  font-size: 14px;
+  border: 1px solid #DDDDDD;
+  padding:0 10px;
+  margin:0 5px 5px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+div.detail-spe ul.spe-list li:first-child a{
+  border: 1px solid #E60021;
+}
+ul.spe-list li:hover a{
+  color: #000;
+  border: 1px solid #E60021;
+}
+ul.spe-list a:active{
+  border: 1px solid #E60021;
+}
+
+/*立即购买*/
+div.show-details div.detail-cart{
+  padding: 20px 70px;
+}
+div.show-details div.detail-cart a{
+  width: 98px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+div.show-details div.detail-cart a:first-child{
+  background: #FFEDED;
+  border: 1px solid #F03726;
+  color: #F03726;
+}
+div.show-details div.detail-cart a:last-child{
+  background: #F03726;
+  /*border: 1px solid #F03726;*/
+  margin-left: 5px;
+  color: #FFF;
+}
+/*优惠套餐*/
+ div.match{
+  width: 100%;
+  height: 266px;
+  margin-top: 20px;
+}
+div.match div.match-title h2{
+  width:100%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  border-bottom:1px solid #f6f4f0;
+  color: #E4393C;
+}
+div.match div.match-comment{
+  width:100%;
+  height: 210px;
+}
+div.match-comment ul.comment-container{
+  display: flex;
+}
+ul.comment-container li.block{
+  width: 150px;
+  height: 209px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 5px;
+  padding-bottom: 15px;
+}
+ul.comment-container li.block a{
+  font-size: 14px;
+  color: #000;
+}
+ul.comment-container li.block p{
+  width: 150px;
+  height: 23px;
+  text-align: center;
+  line-height: 23px;
+}
+li.block p>span:first-child{
+  font-size: 16px;
+  font-weight: 600;
+  color: #E4393C;
+}
+li.block p>span:last-child{
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  margin-left: 5px;
+}
+ul.comment-container li.block img{
+  width: 150px;
+  height: 150px;
+}
+ul.comment-container li.block-count{
+  width: 10px;
+  height: 150px;
+  line-height: 150px;
+  color: #CFC3C7;
+  font-size: 14px;
+}
+ul.comment-container li.block-total{
+  width: 110px;
+  height: 112px;
+  margin: 35px 5px 0;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+li.block-total p{
+  padding-bottom: 8px;
+}
+li.block-total p:first-child span{
+  font-size: 16px;
+  color:#E4393C;
+  font-weight: 600;
+  display: inline-block;
+}
+li.block-total p:nth-child(2){
+  text-align: center;
+}
+li.block-total p:nth-child(2) span:first-child{
+  font-size: 12px;
+  color: #000;
+}
+li.block-total p:nth-child(2) span:last-child{
+  font-size: 14px;
+  color: #000;
+}
+li.block-total  a{
+  margin-top: 4px;
+  color: #fff;
+  font-size: 14px;
+  width:102px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  line-height: 32px;
+  background: #F03726;
+  box-sizing: border-box;
+
+}
+/*商品介绍*/
+div.product-introduce{
+  display: flex;
+  justify-content: space-between;
+}
+div.product-introduce div.browse{
+  width: 240px;
+  height: 1453px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+ div.browse ul.browse-list{
+  width: 214px;
+  height: 1453px;
+   text-align: center;
+   border: 1px solid #D4D4D4;
+}
+ul.browse-list p{
+  width: 214px;
+  height: 21px;
+  line-height: 21px;
+  background: #F7F7F7;
+  font-size: 14px;
+}
+ul.browse-list li.list-item{
+  width: 194px;
+  height: 281px;
+  text-align: center;
+  display: inline-block;
+}
+ul.browse-list li.list-item img{
+  width: 194px;
+  height: 194px;
+}
+ul.browse-list li.list-item a{
+  font-size: 14px;
+  color: #000;
+}
+ul.browse-list li.list-item span{
+  width: 194px;
+  height: 21px;
+  font-size: 14px;
+  color: #E4393C;
+  font-weight: 600;
+  display: block;
+  line-height: 21px;
+}
+ul.browse-list li{
+  margin: 0 10px;
+  padding: 12px 0;
+  border-top: 1px dashed #DEDEDE;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 194px;
+  height: 282px;
+}
+ul.browse-list li img{
+  width: 194px;
+  height: 194px;
+}
+ul.browse-list li a{
+  height: 63px;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+}
+ul.browse-list li span{
+  width: 194px;
+  height: 21px;
+  color: #E4393C;
+  font-weight: 600;
+  display: block;
+  line-height: 21px;
+}
+ul.browse-list li:last-child{
+  width: 194px;
+  height: 303px;
+}
+ul.browse-list li:last-child p{
+  width: 194px;
+  text-align: center;
+  height: 63px;
+  color: #000;
+  font-size: 14px;
+}
+/*商品详情*/
+div.product-introduce div.introduceMain{
+  width:960px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+div.introduceMain ul.introduce-title{
+  width: 960px;
+  height: 36px;
+  display: flex;
+  background: #F5F5F5;
+}
+ul.introduce-title a{
+  width: 216px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  color: #000;
+  display: inline-block;
+}
+ul.introduce-title li:first-child{
+  border-bottom:2px solid #F03726;
+  color: #E4393C;
+
+}
+ul.introduce-title li:active{
+  border-bottom:2px solid #F03726;
+}
+div.introduceMain div.container{
+  position: relative;
+}
+div.container
+div.introduce-container1,
+div.introduce-container2,
+div.introduce-container3{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div.container
+div.introduce-container1{
+  z-index:10;
+}
+div.introduceMain  div.brand{
+  width: 938px;
+  height: 184px;
+  /*background: #f1a899;*/
+}
+div.brand h4{
+  width: 66px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-bottom:1px solid #F70;
+  font-size: 14px;
+  padding-right: 10px;
+  margin-top: 35px;
+  font-weight: normal;
+}
+div.brand ul.brand-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 790px;
+  height: 130px;
+  padding-left: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+ul.brand-list li{
+  width: 33.3%;
+  height: 20px;
+  font-size: 14px;
+  color: #666;
+}
+/*商品细节*/
+div.introduceMain div.introduce-details{
+  width: 938px;
+  height: 100%;
+}
+div.introduce-details h4{
+  width: 66px;
+  height: 35px;
+  border-bottom:1px solid #F70;
+  font-size: 14px;
+  padding-right: 10px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 35px;
+}
+div.introduce-details div.detail-pic{
+  padding-top: 40px;
+}
+div.introduce-details div.detail-pic img{
+  width: 100%;
+}

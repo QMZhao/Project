@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/header.css">
+  <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+</head>
+<body>
+  <div class="main">
+    <!--页头-->
+    <div class="header"></div>
+    <!--面包屑导航栏-->
+    <div class="bread-crumb"></div>
+    <!--商品详情-->
+    <div class="product_details">
+      <div class="preview">
+        <div class="medium">
+          <img src="img/product/01_mid.jpg">
+        </div>
+        <div class="slides">
+          <ul>
+            <li>
+              <img src="img/product/01_small.jpg">
+            </li>
+            <li>
+              <img src="img/product/02_small.jpg">
+            </li>
+            <li>
+              <img src="img/product/03_small.jpg">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="show-details">
+        <p class="detail-title">
+          <b>良品铺子 手剥松子218g 坚果炒货 巴西松子</b>
+        </p>
+        <div class="detail-block">
+          <div class="block-title">
+            <div>
+              <dt>店铺优惠</dt>
+            </div>
+            <div>
+              <p>购物满2件打8折，满3件7折</p>
+              <a href="javascript:;">点击领卷</a>
+            </div>
+          </div>
+          <div class="block-active">
+            <div class="block-list1 ">
+              <p>促销价</p>
+              <p>
+                <span>¥</span>
+                <span>56.90</span></p>
+            </div>
+            <div class="block-list2">
+              <p class="">原价</p>
+              <p class="">
+                <span>¥</span>
+                <s>98.00</s>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="detail-express">
+          <div>配送至</div>
+          <div>
+            <select name="user.province" id="province"></select>
+            <select name="user.city" id="city"></select>
+            <select name="user.area" id="area"></select>
+            <script type="text/javascript">
+              function getValue() {
+                var $getpro=$("#province").val;
+                var $getcity=$("#city").val;
+                var $getarea=$("#area").val;
+              }
+            </script>
+          </div>
+          <div>快递<span>10</span>元</div>
+          <div>24小时内发货</div>
+        </div>
+        <div class="detail-spe">
+          <span>选择规格</span>
+          <div>
+            <ul class="spe-list">
+              <li><a  class="active" href="javascript:;">原味手袋单人份</a></li>
+              <li><a href="javascript:;">原味礼盒双人份</a></li>
+              <li><a href="javascript:;">原味全家福礼包</a></li>
+              <li><a href="javascript:;">奶油手袋单人份</a></li>
+              <li><a href="javascript:;">原味礼盒双人份</a></li>
+              <li><a href="javascript:;">原味全家福礼包</a></li>
+              <li><a href="javascript:;">炭烧手袋单人份</a></li>
+              <li><a href="javascript:;">炭烧礼盒双人份</a></li>
+              <li><a href="javascript:;">炭烧全家福礼包</a></li>
+              <li><a href="javascript:;">咸香手袋单人份</a></li>
+              <li><a href="javascript:;">咸香礼盒双人份</a></li>
+              <li><a href="javascript:;">咸香全家福礼包</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="detail-cart">
+          <a href="">加入购物车</a>
+          <a href="">立即购买</a>
+        </div>
+      </div>
+    </div>
+    <!--优惠套餐-->
+    <div class="match">
+      <div class="match-title">
+        <h2>优惠套餐</h2>
+      </div>
+      <div class="match-comment">
+        <ul class="comment-container">
+          <li class="block">
+            <img src="img/product/cp.jpg">
+            <a href="javascript:;">萨拉米 1+1小鸡腿</a>
+            <p>
+              <span>¥ 29.90</span>
+              <span><s>¥199.00</s></span>
+            </p>
+          </li>
+          <li class="block-count">+</li>
+          <li class="block">
+            <img src="img/product/cp2.jpg">
+            <a href="javascript:;">ZEK 原味海苔</a>
+            <p>
+              <span>¥ 8.90</span>
+              <span><s>¥ 299.00</s></span>
+            </p>
+          </li>
+          <li class="block-count">=</li>
+          <li class="block-total">
+            <p>
+              <span>套餐价:</span>
+              <span>¥35.00</span>
+            </p>
+            <p>
+              <span>共省:</span>
+              <span>¥463.00</span>
+            </p>
+            <a href="#">立即购买</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--商品介绍-->
+    <div class="product-introduce">
+      <div class="browse">
+        <ul class="browse-list">
+          <p>看了又看</p>
+          <li class="list-item">
+            <img src="img/product/browse1.jpg">
+            <a href="javascript:;">【三只松鼠_开口松子218g】零食坚果特产炒货东北红松子原味</a>
+            <span>¥35.90</span>
+          </li>
+          <li>
+            <img src="img/product/browse1.jpg">
+            <a href="javascript:;">【三只松鼠_开口松子218g】零食坚果特产炒货东北红松子原味</a>
+            <span>¥35.90</span>
+          </li>
+          <li>
+            <img src="img/product/browse1.jpg">
+
+              <a href="javascript:;">【三只松鼠_开口松子218g】零食坚果特产炒货东北红松子原味</a>
+
+            <span>¥35.90</span>
+          </li>
+          <li>
+            <img src="img/product/browse1.jpg">
+            <a href="javascript:;">【三只松鼠_开口松子218g】零食坚果特产炒货东北红松子原味</a>
+            <span>¥35.90</span>
+          </li>
+          <li>
+            <img src="img/product/browse1.jpg">
+            <p>
+              <a href="javascript:;">【三只松鼠_开口松子218g】零食坚果特产炒货东北红松子原味</a>
+            </p>
+            <span>¥35.90</span>
+          </li>
+        </ul>
+      </div>
+      <div class="introduceMain">
+        <ul class="introduce-title">
+          <li><a data-toggle="tab" href=".introduce-container">宝贝详情</a></li>
+          <li><a data-toggle="tab" href=".introduce-container2">全部评价</a></li>
+          <li><a data-toggle="tab" href=".introduce-container3">猜你喜欢</a></li>
+        </ul>
+        <div class="container">
+          <div class="introduce-container">
+            <div class="brand">
+              <h4>产品参数</h4>
+              <ul class="brand-list">
+                <li><span>产品类型：</span><span>烘炒类</span></li>
+                <li><span>原料产地：</span><span>巴基斯坦</span></li>
+                <li><span>产地：</span><span>湖北省武汉市</span></li>
+                <li><span>配料表：</span><span>进口松子、食用盐</span></li>
+                <li><span>产品规格：</span><span>210g</span></li>
+                <li><span>保质期：</span><span>180天</span></li>
+                <li><span>产品标准号：</span><span>GB/T 22165</span></li>
+                <li><span>生产许可证编号：</span><span> QS4201 1801 0226</span></li>
+                <li><span>储存方法：</span><span>请放置于常温、阴凉、通风、干燥处保存 </span></li>
+                <li><span>食用方法：</span><span>开袋去壳即食</span></li>
+              </ul>
+            </div>
+            <div class="introduce-details">
+              <h4>商品细节</h4>
+              <div class="detail-pic">
+               <img src="img/product/tw1.jpg">
+               <img src="img/product/tw2.jpg">
+               <img src="img/product/tw3.jpg">
+               <img src="img/product/tw4.jpg">
+               <img src="img/product/tw5.jpg">
+               <img src="img/product/tw6.jpg">
+               <img src="img/product/tw7.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="introduce-container2">
+            <div class="brand">
+              <h4>产品参数</h4>
+              <ul class="brand-list">
+                <li><span>产品类型：</span><span>烘炒类</span></li>
+                <li><span>原料产地：</span><span>巴基斯坦</span></li>
+                <li><span>产地：</span><span>湖北省武汉市</span></li>
+                <li><span>配料表：</span><span>进口松子、食用盐</span></li>
+                <li><span>产品规格：</span><span>210g</span></li>
+                <li><span>保质期：</span><span>180天</span></li>
+                <li><span>产品标准号：</span><span>GB/T 22165</span></li>
+                <li><span>生产许可证编号：</span><span> QS4201 1801 0226</span></li>
+                <li><span>储存方法：</span><span>请放置于常温、阴凉、通风、干燥处保存 </span></li>
+                <li><span>食用方法：</span><span>开袋去壳即食</span></li>
+              </ul>
+            </div>
+            <div class="introduce-details">
+              <h4>商品细节</h4>
+              <div class="detail-pic">
+                <img src="img/product/tw1.jpg">
+                <img src="img/product/tw2.jpg">
+                <img src="img/product/tw3.jpg">
+                <img src="img/product/tw4.jpg">
+                <img src="img/product/tw5.jpg">
+                <img src="img/product/tw6.jpg">
+                <img src="img/product/tw7.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="introduce-container3">
+            <div class="brand">
+              <h4>产品参数</h4>
+              <ul class="brand-list">
+                <li><span>产品类型：</span><span>烘炒类</span></li>
+                <li><span>原料产地：</span><span>巴基斯坦</span></li>
+                <li><span>产地：</span><span>湖北省武汉市</span></li>
+                <li><span>配料表：</span><span>进口松子、食用盐</span></li>
+                <li><span>产品规格：</span><span>210g</span></li>
+                <li><span>保质期：</span><span>180天</span></li>
+                <li><span>产品标准号：</span><span>GB/T 22165</span></li>
+                <li><span>生产许可证编号：</span><span> QS4201 1801 0226</span></li>
+                <li><span>储存方法：</span><span>请放置于常温、阴凉、通风、干燥处保存 </span></li>
+                <li><span>食用方法：</span><span>开袋去壳即食</span></li>
+              </ul>
+            </div>
+            <div class="introduce-details">
+            <h4>商品细节</h4>
+            <div class="detail-pic">
+              <img src="img/product/tw1.jpg">
+              <img src="img/product/tw2.jpg">
+              <img src="img/product/tw3.jpg">
+              <img src="img/product/tw4.jpg">
+              <img src="img/product/tw5.jpg">
+              <img src="img/product/tw6.jpg">
+              <img src="img/product/tw7.jpg">
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <!--<script src="js/bootstrap.js"></script>-->
+  <script src="js/ajax.js"></script>
+  <!--<script src="js/header.js"></script>-->
+  <script src="js/product.js"></script>
+  <script language="javascript" src="js/pcasunzip.js" charset="utf-8"></script>
+  <script language="javascript" defer>
+    new PCAS("user.province","user.city","user.area");
+
+  </script>
+  <!--<script language="javascript" defer>-->
+    <!--new PCAS("user.province","user.city","user.area","山东省","济南市","济南市");-->
+</body>
+</html>

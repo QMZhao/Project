@@ -1,0 +1,64 @@
+/*************页脚***********/
+div.footer{
+  width: 1200px;
+  height: 400px;
+  margin:0 auto;
+}
+div.footer div.footer-container{
+  width: 1200px;
+  height: 100%;
+  flex-direction: column;
+  border-top: 1px solid #EBEBEB;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+div.footer-container div.footer-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+div.footer-container ul.footer-list{
+  width: 195px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  list-style:none;
+}
+ul.footer-list a{
+  text-decoration:none;
+  color:#000;
+  font-size: 12px;
+}
+ul.footer-list li:first-child a{
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+}
+ul.footer-list li:not(:first-child){
+  height: 24px;
+  padding: 0 8px;
+  line-height: 24px;
+  white-space: normal;
+  color: #666;
+}
+ul.footer-list img{
+  width: 90px;
+  height: 90px;
+}
+div.footer-container div.bd-list {
+  width: 1200px;
+  height: 30px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #DDD;
+}
+div.footer-container div.bd-list a{
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+div.footer-container div.bd-list span{
+  display: inline-block;
+}
